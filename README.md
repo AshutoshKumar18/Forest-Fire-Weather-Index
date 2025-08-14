@@ -2,6 +2,7 @@
 A machine learning-powered web application that predicts the Fire Weather Index (FWI) using various environmental parameters such as temperature, humidity, wind speed, and more. This project leverages the Algerian Forest Fires Dataset and applies regression models to provide accurate predictions.
 
 **📌 Features**
+
 🌡 Predicts Fire Weather Index based on user inputs.
 📊 Uses Ridge Regression for model predictions.
 📈 Preprocessing with Scaler for normalized inputs.
@@ -9,30 +10,39 @@ A machine learning-powered web application that predicts the Fire Weather Index 
 📁 Organized project structure for easy understanding and maintenance.
 
 **📂 Project Structure**
-├── Dataset
-│   └── Forest_updated.csv             # Dataset used for training
-│
-├── Jupyter Notebook
-│   └── End to End Algerian Forest Fires Dataset...ipynb # Data preprocessing, training & evaluation and save your model
-│
-├── models
-│   ├── ridge.pkl                       # Trained Ridge Regression model
-│   └── scaler.pkl                      # Scaler for input normalization
-│
-├── templates
-│   ├── home.html                       # Web UI template
-│   └── index.html                      # Alternate HTML template
-│
-├── application.py                      # Flask application
-└── README.md                           # Project documentation
+.
+1. ├── Dataset
+
+       └── Forest_updated.csv             # Dataset used for training
+
+2. ├── Jupyter Notebook
+
+       └── End to End Algerian Forest Fires Dataset...ipynb # Data preprocessing, training & evaluation
+
+3. ├── models
+
+       ├── ridge.pkl                       # Trained Ridge Regression model
+       └── scaler.pkl                      # Scaler for input normalization
+
+4. ├── templates
+
+       ├── home.html                       # Web UI template
+       └── index.html                      # Alternate HTML template
+
+5. ├── application.py                      # Flask application
+
+
+6. ├── README.md                           # Project documentation
 
 
 **🚀 How It Works**
+
 Data Preprocessing – The dataset is cleaned and scaled.
 Model Training – Ridge Regression is trained to predict the FWI.
 Web Application – A Flask app collects user inputs, processes them, and displays predictions.
 
 **🛠 Installation & Setup**
+
 1️⃣ Clone the Repository
 git clone https://github.com/AshutoshKumar18/fire-weather-index-prediction.git
 cd fire-weather-index-prediction
@@ -65,14 +75,12 @@ Fire Danger Class: 3
 Region Code: 1
 
 **Output:**
-🔥 Fire Weather Index Prediction: 12.4
 
-**📸 Screenshots**
-UI Example:
-[App Screenshot](screenshot.png)
+🔥 Fire Weather Index Prediction: 12.4
 
 
 **📚 Technologies Used**
+
 Python 🐍
 Flask 🌐
 Pandas, NumPy, Scikit-learn 📊
@@ -80,5 +88,7 @@ HTML, CSS 🎨
 Jupyter Notebook 📓
 
 **🤝 Contributing**
+
 Contributions, issues, and feature requests are welcome!
+
 Feel free to use this repository and submit a pull request.

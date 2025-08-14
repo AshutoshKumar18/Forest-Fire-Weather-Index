@@ -1,4 +1,5 @@
-                                                  **🔥 Fire Weather Index Prediction**
+# **🔥Fire Weather Index Prediction**
+
 A machine learning-powered web application that predicts the Fire Weather Index (FWI) using various environmental parameters such as temperature, humidity, wind speed, and more. This project leverages the Algerian Forest Fires Dataset and applies regression models to provide accurate predictions.
 
 **📌 Features**
@@ -92,3 +93,4 @@ Jupyter Notebook 📓
 Contributions, issues, and feature requests are welcome!
 
 Feel free to use this repository and submit a pull request.
+
